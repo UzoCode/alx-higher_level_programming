@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
 def safe_print_integer(value):
-	isInteger = False
+	Integer = False
 	try:
 		print("{:d}".format(value))
-		isInteger = True
+		Integer = True
 	except ValueError:
-		isInteger = False
+		Integer = False
 	finally:
-		return isInteger
+		return Integer
